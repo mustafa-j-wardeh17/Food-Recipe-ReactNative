@@ -19,7 +19,7 @@ const Welcome = () => {
                 <Text className='text-white font-bold' style={{ fontSize: wp(16) }}>Foody</Text>
                 <Text className='text-white/95 font-[400]' style={{ fontSize: wp(5) }}>Food is always right</Text>
             </Animated.View>
-            <Animated.View
+            {/* <Animated.View
                 entering={FadeInLeft.delay(2000).duration(1000).damping(12).springify()}
                 style={{ marginTop: hp(8) }}
                 className='  rounded-xl  items-center shadow-[5px_5px_rgba(0,_98,_90,_0.4),_10px_10px_rgba(0,_98,_90,_0.3),_15px_15px_rgba(0,_98,_90,_0.2),_20px_20px_rgba(0,_98,_90,_0.1),_25px_25px_rgba(0,_98,_90,_0.05)] '
@@ -30,7 +30,7 @@ const Welcome = () => {
                 >
                     <Text className='text-center text-white/80 font-bold' style={{ fontSize: wp(6.5) }}>Home</Text>
                 </TouchableOpacity>
-            </Animated.View>
+            </Animated.View> */}
 
         </View>
     )

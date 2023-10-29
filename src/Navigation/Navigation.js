@@ -13,7 +13,7 @@ const Navigation = () => {
     <NavigationContainer>
         <Stack.Navigator initialRouteName="Welcome" screenOptions={{headerShown:false}}>
             <Stack.Screen name="Home" component={Home} />
-            <Stack.Screen name="Welcome" component={Welcome} />
+            <Stack.Screen name="Welcome" component={Welcome} options={{presentation:'fullScreenModal'}}/>
             <Stack.Screen name="RecipeDetail" component={RecipeDetail} />
         </Stack.Navigator>
     </NavigationContainer>
